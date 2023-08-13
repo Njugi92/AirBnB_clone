@@ -26,7 +26,6 @@ def parse(arg):
             return ret1
 
 
-
 class HBNBCommand(cmd.Cmd):
     """It defines HBnB command interplater
     Attributes:
@@ -68,7 +67,6 @@ class HBNBCommand(cmd.Cmd):
                     return argdict[command[0]](call)
         print("*** Unknown syntax: {}".format(arg))
         return False
-
 
     def do_quit(self, arg):
         """Enter quit command to exit program"""
