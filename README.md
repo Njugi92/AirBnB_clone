@@ -7,6 +7,9 @@
 Description:
 irBnB is a complete web application complising of database storage, a back-end API and a front-end interface. The project currently impliments the back-end console.
 
+<<<<<<< HEAD
+The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
+=======
 Classes:
 HolbertonBnB uses the following classes:
 	-> BaseModel - It is the base class which entails all common attributes/	   methods for other classes.
@@ -175,3 +178,4 @@ Testing:
 Unittest for AirBnB project are defined in the tests directory. To run the entire tests excecute the following commands:
 
 $ python3 unittest -m discover tests
+>>>>>>> 9554aefc83322426ca9857d8ce06c9a4ef60d145
